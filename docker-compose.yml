@@ -7,17 +7,15 @@ services:
       - "4000:4000"
     volumes:
       - ./backend/logs:/app/logs  # Map the log directory in the container to the ./backend/logs directory on the host
-
+    depends_on:
+      - mydatabase
 
   frontend:
     image: frontimage
     ports:
       - "3000:3000"
     depends_on:
-      - backend
-
-    depends_on:
-      - mydatabase
+      - backimage
 
   mydatabase:
     image: mongo
