@@ -2,7 +2,7 @@ version: '3.5'
 services:
 
   backend:
-    image: backimage
+    image: anwit/backimage
     ports:
       - "4000:4000"
     volumes:
@@ -11,7 +11,7 @@ services:
       - mydatabase
 
   frontend:
-    image: frontimage
+    image: anwit/frontimage
     ports:
       - "3000:3000"
     depends_on:
