@@ -9,6 +9,8 @@ services:
       - ./backend/logs:/app/logs  # Map the log directory in the container to the ./backend/logs directory on the host
     depends_on:
       - mydatabase
+    networks:
+      - my-network
 
   frontend:
     image: anwit/frontimage
@@ -16,6 +18,8 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+    networks:
+      - my-network
 
   mydatabase:
     image: mongo
@@ -23,3 +27,9 @@ services:
       - "27017:27017"
     volumes:
       - ./data/db:/data/db:rw
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
