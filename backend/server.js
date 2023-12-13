@@ -21,8 +21,9 @@ app.use('/api/workouts', workoutRoutes)
 app.use('/api/user', userRoutes)
 
 // connect to db
-mongoose.connect("mongodb+srv://anwitd11damale:dxMp83HP1Q422O2Q@cluster0.de2b5ep.mongodb.net/?retryWrites=true&w=majority")
-  .then(() => {
+//mongoose.connect("mongodb+srv://anwitd11damale:dxMp83HP1Q422O2Q@cluster0.de2b5ep.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb://mydatabase:27017")  
+.then(() => {
     // listen for requests
     app.listen(4000, () => {
       console.log('connected to db & listening on port!!')

@@ -16,12 +16,12 @@ services:
     depends_on:
       - backend
 
-  #   depends_on:
-  #     - mongodb
+    depends_on:
+      - mydatabase
 
-  # mongodb:
-  #   image: mongo
-  #   ports:
-  #     - "27017:27017"
-  #   volumes:
-  #     - /home/ak232003/expense-tracker_fullstack/data/db:/data/db:rw
+  mydatabase:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db:rw

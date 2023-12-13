@@ -5,3 +5,20 @@
 {"level":"info","message":"Workout Successfuly Aded!","timestamp":"2023-12-13T11:02:30.209Z"}
 {"level":"info","message":"Hello, ELK Stack!","timestamp":"2023-12-13T12:20:55.923Z"}
 {"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T12:22:38.045Z"}
+{"level":"info","message":"Hello, ELK Stack!","timestamp":"2023-12-13T16:36:09.959Z"}
+{"level":"error","message":"Server Error, Cannot Add Workout","timestamp":"2023-12-13T16:38:15.844Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:38:39.987Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:38:39.993Z"}
+{"level":"info","message":"Workout Successfuly Aded!","timestamp":"2023-12-13T16:38:56.065Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:39:05.220Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:39:05.226Z"}
+{"level":"info","message":"Workout Successfuly Aded!","timestamp":"2023-12-13T16:39:26.588Z"}
+{"level":"info","message":"Hello, ELK Stack!","timestamp":"2023-12-13T16:52:45.194Z"}
+{"level":"error","message":"Server Error, Cannot Add Workout","timestamp":"2023-12-13T16:55:02.887Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:55:19.015Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T16:55:19.022Z"}
+{"level":"info","message":"Workout Successfuly Aded!","timestamp":"2023-12-13T16:55:34.360Z"}
+{"level":"info","message":"Workout Successfuly Aded!","timestamp":"2023-12-13T16:56:16.123Z"}
+{"level":"info","message":"Hello, ELK Stack!","timestamp":"2023-12-13T17:02:22.673Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T17:04:44.985Z"}
+{"level":"info","message":"Successfully retrieved the workouts!","timestamp":"2023-12-13T17:04:45.077Z"}
