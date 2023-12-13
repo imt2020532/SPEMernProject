@@ -1,1 +1,2 @@
-localhost ansible_user = anwit
+[localhost]
+127.0.0.1 ansible_connection=local ansible_user=anwit
