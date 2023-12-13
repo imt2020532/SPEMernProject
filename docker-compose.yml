@@ -6,7 +6,7 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - ./backend/logs:/app/logs  # Map the logs directory in the container to the ./backend/logs directory on the host
+      - ./backend/logs:/app/logs  # Map the log directory in the container to the ./backend/logs directory on the host
 
 
   frontend:
