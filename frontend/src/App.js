@@ -29,7 +29,7 @@ function App() {
               path="/signup" 
               element={!user ? <Signup /> : <Navigate to="/" />} 
             />
-            <Route path="/records" element={<Records />} /> {/* Add this line */}
+            <Route path="/records" element={<Records /> } /> {/* Add this line */}
           </Routes>
         </div>
       </BrowserRouter>
