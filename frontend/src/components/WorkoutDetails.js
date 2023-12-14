@@ -47,7 +47,7 @@
 import { useWorkoutsContext } from '../hooks/useWorkoutsContext'
 import { useAuthContext } from '../hooks/useAuthContext'
 import { useState } from "react"
-import {DeleteIcon, EditIcon} from "@chakra-ui/icons"
+//import {DeleteIcon, EditIcon} from "@chakra-ui/icons"
 // date fns
 import formatDistanceToNow from 'date-fns/formatDistanceToNow'
 
@@ -124,12 +124,17 @@ const WorkoutDetails = ({ workout }) => {
       ) : (
         /* Render workout details when not in edit mode */
         <>
-          <h4>{workout.title} 
-          <DeleteIcon color="black" onClick={handleDelete}></DeleteIcon>
-          <EditIcon color="black" onClick={handleEdit}></EditIcon> </h4>
+          
+          <p>
+  <h4>{workout.title}</h4>
+   
+</p>
+
           <p><strong>Load (kg): </strong>{workout.load}</p>
           <p><strong>Reps: </strong>{workout.reps}</p>
           <p>{formatDistanceToNow(new Date(workout.createdAt), { addSuffix: true })}</p>
+          <p onClick={handleDelete}>Delete</p>
+<p onClick={handleEdit}>Edit</p>
         </>
       )}
     </div>
